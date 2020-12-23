@@ -22,7 +22,7 @@ const header = (
 				<h2> C</h2>
 			</div>
 			<a 
-				href="https://github.com/devesh-198/DeveshGuptaPortfolio" 
+				href="https://github.com/devesh-198/devesh_portfolio_website" 
 				target="_blank"
                 rel="noreferrer"
 			>Github repository for this website</a>
