@@ -1,0 +1,33 @@
+.biodata {
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.biodata > h2 {
+    font-size: 35px;
+}
+
+.para {
+    max-width: 350px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 20px;
+}
+
+.abt1:hover {
+    font-size: 22px;
+    color: red;
+    transition: 0.1s ease-in;
+}
+
+.abt2:hover {
+    font-size: 22px;
+    color: red;
+    transition: 0.1s ease-in;
+}
+
+.abt3:hover {
+    font-size: 22px;
+    color: red;
+    transition: 0.1s ease-in;
+}

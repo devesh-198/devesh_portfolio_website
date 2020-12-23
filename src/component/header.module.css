@@ -1,0 +1,70 @@
+.header {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.quote:hover{
+    font-size: 45px;
+    color: red;
+}
+
+.name {
+    margin-top: 80px;
+    text-align: center;
+} 
+
+.name > h1 {
+    transition: color 1s ease-in;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.name > h1:hover {
+    color: red;
+}
+
+.language {
+    font-size: initial;
+    color: white;
+    transition: font-size 1s ease-in-out;
+    transition: color 1s ease-in;
+}
+
+.language > h2:hover {
+    font-size: 35px;
+    color: #D07200;
+}
+
+.language > h2 {
+    display: inline;
+} 
+
+.devImg {
+    opacity: 0.5;
+    max-width: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.devImg:hover {
+    opacity: 1;
+}
+
+.name > a {
+    color: white;
+}
+
+.name > a:hover {
+    color: yellow;
+    font-size: 20px;
+    transition: 0.1s ease-in;
+}

@@ -1,0 +1,9 @@
+.hobby {
+    text-align: center;
+    background-color: #D07200;
+    width: 150px;
+    height: 150px;
+    padding: 5px 5px;
+    border-radius: 100%;
+    margin-bottom: 100px;
+}

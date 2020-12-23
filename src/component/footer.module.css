@@ -1,0 +1,8 @@
+.foot { 
+    color: white;
+    margin-bottom: 100px;
+}
+
+.foot:hover {
+    color: yellow;
+}

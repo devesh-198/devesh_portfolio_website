@@ -1,0 +1,14 @@
+.main {
+    background-color: black;
+    color: white;
+}
+
+.layout {
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #212121;
+}

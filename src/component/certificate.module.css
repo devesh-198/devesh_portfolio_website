@@ -1,0 +1,37 @@
+.certify {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.certify > h2 {
+    font-size: 35px;
+}
+
+.image > a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image > a > img {
+    padding: 6px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 700px;
+}
+
+@media (max-width: 740px) {
+    .image > a > img {
+        min-width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .image > a > img {
+        min-width: 300px;
+    }
+}
+
+

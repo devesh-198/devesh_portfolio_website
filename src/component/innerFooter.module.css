@@ -1,0 +1,29 @@
+.contdetail { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contdetail > h2{
+    font-size: 35px;
+}
+
+.listItem {
+    color: white;
+}
+
+.listItem:hover {
+    color: yellow;
+}
+
+.contdetail > p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+
+.contdetail > p:hover {
+    color: red;
+}
+
+.listContact > img {
+    width: 20px;
+}
