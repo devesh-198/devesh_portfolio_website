@@ -57,7 +57,7 @@ const contactList = (
                     href="https://twitter.com/Devesh_Gupta_19"
                     target="_blank"
                     rel="noreferrer"
-                    title="twiter profile"
+                    title="twitter profile"
                 >Devesh_Gupta_19
                 </a>
             </div>
@@ -104,7 +104,7 @@ const contactList = (
                     href="https://www.instagram.com/devesh.198/"
                     target="_blank"
                     rel="noreferrer"
-                    title="Instagram profie"
+                    title="Instagram profile"
                 >devesh.198
                 </a>
             </div>
