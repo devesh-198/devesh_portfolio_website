@@ -1,8 +1,8 @@
 import React from 'react';
 
 import classes from './certificate.module.css';
-import DevGJavascriptCertificate from '../assets/Devesh-Gupta-JS-certificate.png';
-import DevGReactCertificate from '../assets/Devesh-Gupta-React-certificate.png';
+import DevGJavascriptCertificate from '../../assets/old_version/Devesh-Gupta-JS-certificate.png';
+import DevGReactCertificate from '../../assets/old_version/Devesh-Gupta-React-certificate.png';
 
 const crtEl = React.createElement;
 

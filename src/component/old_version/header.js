@@ -1,14 +1,11 @@
 import React from 'react';
 import classes from './header.module.css';
 
-import deveshGuptaImage from '../assets/deveshGuptaImage.png';
+import deveshGuptaImage from '../../assets/old_version/deveshGuptaImage.png'
 
 const header = (
 	<div className={classes.header}>
 		<div className={classes.name}>
-			<div className={classes.quote}>
-				<p>If UI design is an art, I'm an artist</p>
-			</div>
 			<img 
 				src={deveshGuptaImage} alt='deveshGuptaImage' title='Devesh Gupta'
 				className={classes.devImg}

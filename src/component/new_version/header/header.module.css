@@ -1,0 +1,427 @@
+@media (min-width: 700px) and (max-width: 925px) {
+
+	.mobile{
+		display: none;
+	}
+
+	.lines {
+		height: 100vh;
+		width: inherit;
+		color: black;
+	}
+
+	/*
+	** Apply styles to the parent element
+	*/
+	.Words {
+		margin: 40px 5px;
+		height: max-content;
+		width: max-content;
+		padding: 0;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 60px;
+		font-weight: 900;
+		letter-spacing: -4px;
+		text-transform: uppercase;
+		transform: translate3d(0, 0, 0);
+		-webkit-font-smoothing: antialiased;
+		-webkit-font-kerning: normal;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	/*
+	** Apply common styles to each line of text
+	*/
+	.Wordsline {
+		height: 65px;
+		overflow: hidden;
+		position: relative;
+	}
+	.Wordsline:nth-child(odd) {
+		transform: skew(60deg, -15deg) scaleY(0.66667);
+	}
+	.Wordsline:nth-child(even) {
+		transform: skew(0deg, -15deg) scaleY(1.33333);
+	}
+
+	.Wordsline:nth-child(1) {
+		left: 1px;
+		border-left: 3.5px solid rgb(0, 255, 0);
+		border-top-left-radius: 60px;
+	}
+	.Wordsline:nth-child(2) {
+		left: 39px;
+		border-left: 3px solid rgb(0, 255, 0);
+	}
+	.Wordsline:nth-child(3) {
+		left: 76px;
+		border-left: 2.5px solid rgb(0, 255, 0);
+	}
+	.Wordsline:nth-child(4) {
+		left: 112.5px;
+		border-left: 2px solid rgb(0, 255, 0);
+	}
+
+	/*
+	** Fine-grained text styles
+	*/
+	.Wordsline > p {
+		height: 10px;
+		line-height: 45px;
+		padding: 0 10px;
+		transition: all 1.2s ease;
+		transform: translate3d(0, -63px, 0);
+		vertical-align: top;
+		white-space: nowrap;
+		text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	}
+
+	/*
+	** The hover interaction
+	*/
+	.Words:hover p {
+		transform: translate3d(0, -135px, 0);
+	}
+
+	.Wordsline:hover {
+		border-left-color: rgb(255, 0, 0); 
+	}
+
+	.skills {
+		margin-top: 35vh;
+		margin-left: 10px;
+		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
+		font-weight: bold;
+	}
+
+	.skills .firstBlock {
+		width: 0ch;
+		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid transparent;
+		font-family: monospace;
+		font-size: 3em;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill1 {
+		width: 0ch;
+		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid transparent;
+		font-family: monospace;
+		font-size: 2em;
+		overflow: hidden;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill2 {
+		width: 0ch;
+		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid transparent;
+		font-family: monospace;
+		font-size: 2em;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes typing {
+		to {
+			width: 25ch
+		}
+	}
+
+	@keyframes typing1 {
+		to {
+			width: 30ch
+		}
+	}
+
+	@keyframes typing2 {
+		to {
+			width: 32ch;
+		}
+	}
+			
+	@keyframes blink {
+		50% {
+			border-right-color: black;
+		}
+	}
+
+	.devSketch {
+		position: fixed;
+		top: -5%;
+		right: -10%;
+		z-index: -1;
+		opacity: 0.5;
+	}
+}
+
+
+
+/* This is for screen size greater than 900px */
+@media (min-width: 925px) {
+	.mobile{
+		display: none;
+	}
+
+	.lines {
+		height: 100vh;
+		width: inherit;
+		color: black;
+	}
+
+	/*
+	** Apply styles to the parent element
+	*/
+	.Words {
+		margin: 60px 25px;
+		height: max-content;
+		width: max-content;
+		padding: 0;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 75px;
+		font-weight: 800;
+		letter-spacing: -4px;
+		text-transform: uppercase;
+		transform: translate3d(0, 0, 0);
+		-webkit-font-smoothing: antialiased;
+		-webkit-font-kerning: normal;
+		-webkit-text-size-adjust: 100%;
+	}
+
+	/*
+	** Apply common styles to each line of text
+	*/
+	.Wordsline {
+		height: 80px;
+		overflow: hidden;
+		position: relative;
+	}
+	.Wordsline:nth-child(odd) {
+		transform: skew(60deg, -15deg) scaleY(0.66667);
+	}
+	.Wordsline:nth-child(even) {
+		transform: skew(0deg, -15deg) scaleY(1.33333);
+	}
+
+	.Wordsline:nth-child(1) {
+		left: 1px;
+		border-left: 3.5px solid rgb(0, 255, 0);
+		border-top-left-radius: 40px;
+	}
+	.Wordsline:nth-child(2) {
+		left: 48px;
+		border-left: 3px solid rgb(0, 255, 0);
+	}
+	.Wordsline:nth-child(3) {
+		left: 94px;
+		border-left: 2.5px solid rgb(0, 255, 0);
+	}
+	.Wordsline:nth-child(4) {
+		left: 140px;
+		border-left: 2px solid rgb(0, 255, 0);
+	}
+
+	/*
+	** Fine-grained text styles
+	*/
+	.Wordsline > p {
+		height: 10px;
+		line-height: 45px;
+		padding: 0 10px;
+		transition: all 1.2s ease;
+		transform: translate3d(0, -80px, 0);
+		vertical-align: top;
+		white-space: nowrap;
+		text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+	}
+
+	/*
+	** The hover interaction
+	*/
+	.Words:hover p {
+		transform: translate3d(0, -170px, 0);
+	}
+
+	.Wordsline:hover {
+		border-left-color: rgb(255, 0, 0); 
+	}
+
+	.skills {
+		margin-top: 25vh;
+		margin-left: 10px;
+		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
+		font-weight: bold;
+	}
+
+	.skills .firstBlock {
+		width: 0ch;
+		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		font-size: 3em;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill1 {
+		width: 0ch;
+		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		font-size: 2em;
+		overflow: hidden;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill2 {
+		width: 0ch;
+		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		font-size: 2em;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes typing {
+		to {
+			width: 25ch
+		}
+	}
+
+	@keyframes typing1 {
+		to {
+			width: 30ch
+		}
+	}
+
+	@keyframes typing2 {
+		to {
+			width: 32ch;
+		}
+	}
+			
+	@keyframes blink {
+		50% {
+			border-right-color: black;
+		}
+	}
+
+	.devSketch {
+		position: fixed;
+		top: -5%;
+		right: -3%;
+		z-index: -1;
+		opacity: 0.5;
+	}
+}
+
+@media (max-width: 700px) {
+	.Words {
+		display: none;
+	}
+
+	.mobile {
+		color: white;
+		background-color: black;
+	}
+
+	.mobile > p {
+		margin: 0 5px;
+		line-height: 35px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	.mobile > p:nth-child(1) {
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+
+	.mobile > p:nth-child(2) {
+		font-size: 15px;
+		font-style: italic;
+		letter-spacing: 0.5px;
+	}
+
+	.devSketch {
+		position: fixed;
+		z-index: -1;
+		top: 0px;
+		opacity: 0.5;
+	}
+
+	.skills {
+		margin-top: 50vh;
+		margin-left: 10px;
+		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
+		font-size: 5vw;
+		font-weight: bold;
+		width: fit-content;
+	}
+
+	.skills .firstBlock {
+		width: 0ch;
+		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill1 {
+		width: 0ch;
+		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		overflow: hidden;
+		animation-fill-mode: forwards;
+	}
+
+	.skills .skill2 {
+		width: 0ch;
+		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid white;
+		font-family: monospace;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes typing {
+		to {
+			width: 25ch
+		}
+	}
+
+	@keyframes typing1 {
+		to {
+			width: 30ch
+		}
+	}
+
+	@keyframes typing2 {
+		to {
+			width: 32ch;
+		}
+	}
+			
+	@keyframes blink {
+		50% {
+			border-right-color: black;
+		}
+	}
+}

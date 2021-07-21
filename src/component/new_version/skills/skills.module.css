@@ -1,0 +1,13 @@
+.skills {
+    background-color: white;
+    margin: 5vw 0;
+    padding: 10px 10px;
+    text-align: left;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skills > p {
+    display: inline-flex;
+    margin-right: 10px;
+}

@@ -1,0 +1,63 @@
+.certificatesHeading {
+    margin: 5vw 0;
+    padding: 10px 0;
+}
+
+.certificatesHeading > h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.certificateStyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: min-content;
+    margin: 3vh 0;
+}
+
+.certificateStyle > div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    border: 3px solid rgb(0, 255, 0);
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 20px;
+    margin: 30px 10px;
+    padding: 10px;
+}
+
+.certificateStyle > div:hover {
+    border: 3px solid red;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.certificateStyle > div > p {
+    font-weight: bold;
+}
+
+.certificateStyle > div > a {
+    border: 1px solid rgb(0, 255, 0);
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(0,255,0,1) 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 8px;
+    height: min-content;
+}
+
+.certificateStyle > div > a:hover {
+    border: 2px solid red;
+    border-top: transparent;
+    border-bottom: transparent;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(255,0,0,1) 100%);
+}

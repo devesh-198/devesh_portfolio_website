@@ -1,0 +1,47 @@
+.publication{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5vw 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.publication > h2 {
+    font-size: 5vw;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.publication > p {
+    font-size: 3vw;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.publication > iframe {
+    height: 40vw;
+    margin: 5vw 5vw;
+}
+
+.publication > div > a {
+    border: 1px solid rgb(0, 255, 0);
+    border-left: transparent;
+    border-right: transparent;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(0,255,0,1) 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 8px;
+    height: min-content;
+}
+
+.publication > div > a:hover {
+    border: 2px solid red;
+    border-top: transparent;
+    border-bottom: transparent;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(255,0,0,1) 100%);
+}

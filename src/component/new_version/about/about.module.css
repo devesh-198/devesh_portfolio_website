@@ -1,0 +1,16 @@
+.about {
+    background-color: white;
+    margin: 5vh 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.about > h1 {
+    font-size: 5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about > p {
+    font-size: 3vw;
+    font-style: italic;
+}

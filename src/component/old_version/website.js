@@ -2,9 +2,9 @@ import React from 'react';
 
 import classes from './website.module.css';
 
-import burgerBuilderGif from '../assets/burgerBuilder.gif';
-import learningLogGif from '../assets/learningLog.gif';
-import blogPostGif from '../assets/blogPost.gif';
+import burgerBuilderGif from '../../assets/old_version/burgerBuilder.gif';
+import learningLogGif from '../../assets/old_version/learningLog.gif';
+import blogPostGif from '../../assets/old_version/blogPost.gif';
 
 const crtEl = React.createElement
 

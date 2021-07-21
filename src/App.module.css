@@ -1,9 +1,9 @@
-.main {
+.main_old {
     background-color: black;
     color: white;
 }
 
-.layout {
+.layout_old {
     margin-left: 20%;
     width: 60%;
     display: flex;

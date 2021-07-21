@@ -3,18 +3,6 @@
     margin-bottom: 100px;
 }
 
-.quote {
-    font-family: 'Great Vibes', cursive;
-    font-size: 30px;
-    color: white;
-    transition: 0.5s ease-in-out;
-}
-
-.quote:hover{
-    font-size: 45px;
-    color: red;
-}
-
 .name {
     margin-top: 80px;
     text-align: center;

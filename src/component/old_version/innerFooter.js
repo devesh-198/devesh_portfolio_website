@@ -2,13 +2,13 @@ import React from 'react';
 
 import classes from './innerFooter.module.css';
 
-import gmailIcon from '../assets/gmailIcon.png';
-import twiterIcon from '../assets/twiterIcon.png';
-import linkedinIcon from '../assets/linkedinIcon.png';
-import githubIcon from '../assets/githubIcon.png';
-import codeWarsIcon from '../assets/codeWarsIcon.png';
-import instagramIcon from '../assets/instagramIcon.png';
-import facebookIcon from '../assets/facebookIcon.png';
+import gmailIcon from '../../assets/old_version/gmailIcon.png';
+import twiterIcon from '../../assets/old_version/twiterIcon.png';
+import linkedinIcon from '../../assets/old_version/linkedinIcon.png';
+import githubIcon from '../../assets/old_version/githubIcon.png';
+import codeWarsIcon from '../../assets/old_version/codeWarsIcon.png';
+import instagramIcon from '../../assets/old_version/instagramIcon.png';
+import facebookIcon from '../../assets/old_version/facebookIcon.png';
 
 const crtEl = React.createElement;
 
