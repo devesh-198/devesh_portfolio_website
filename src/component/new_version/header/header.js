@@ -29,10 +29,10 @@ const Header = () => {
 						<p>&nbsp;</p>
 					</li>
 				</ul>
-				<div className={classes.skills}>
+				<div className={classes.greeting}>
 					<p className={classes.firstBlock}>I seek to create projects</p>
-					<p className={classes.skill1}>that bring your vision to life</p>
-					<p className={classes.skill2}>in the form of web applications.</p>
+					<p className={classes.secondBlock}>that bring your vision to life</p>
+					<p className={classes.thirdBlock}>in the form of web applications.</p>
 				</div>
 			</div>
 			<div className={classes.devSketch}>

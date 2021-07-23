@@ -5,7 +5,7 @@
 	}
 
 	.lines {
-		height: 100vh;
+		/* height: 100vh; */
 		width: inherit;
 		color: black;
 	}
@@ -87,14 +87,14 @@
 		border-left-color: rgb(255, 0, 0); 
 	}
 
-	.skills {
+	.greeting {
 		margin-top: 35vh;
 		margin-left: 10px;
 		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
 		font-weight: bold;
 	}
 
-	.skills .firstBlock {
+	.greeting .firstBlock {
 		width: 0ch;
 		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
 		white-space: nowrap;
@@ -105,7 +105,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill1 {
+	.greeting .secondBlock {
 		width: 0ch;
 		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
 		white-space: nowrap;
@@ -117,7 +117,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill2 {
+	.greeting .thirdBlock {
 		width: 0ch;
 		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
 		white-space: nowrap;
@@ -170,7 +170,7 @@
 	}
 
 	.lines {
-		height: 100vh;
+		/* height: 100vh; */
 		width: inherit;
 		color: black;
 	}
@@ -252,14 +252,14 @@
 		border-left-color: rgb(255, 0, 0); 
 	}
 
-	.skills {
+	.greeting {
 		margin-top: 25vh;
 		margin-left: 10px;
 		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
 		font-weight: bold;
 	}
 
-	.skills .firstBlock {
+	.greeting .firstBlock {
 		width: 0ch;
 		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
 		white-space: nowrap;
@@ -270,7 +270,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill1 {
+	.greeting .secondBlock {
 		width: 0ch;
 		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
 		white-space: nowrap;
@@ -282,7 +282,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill2 {
+	.greeting .thirdBlock {
 		width: 0ch;
 		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
 		white-space: nowrap;
@@ -361,7 +361,7 @@
 		opacity: 0.5;
 	}
 
-	.skills {
+	.greeting {
 		margin-top: 50vh;
 		margin-left: 10px;
 		text-shadow: -0.8px -0.8px 0 white, 0.8px -0.8px 0 white, -0.8px 0.8px 0 white, 0.8px 0.8px 0 white;
@@ -370,7 +370,7 @@
 		width: fit-content;
 	}
 
-	.skills .firstBlock {
+	.greeting .firstBlock {
 		width: 0ch;
 		animation: typing 5s steps(25), blink .5s step-end infinite alternate;
 		white-space: nowrap;
@@ -380,7 +380,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill1 {
+	.greeting .secondBlock {
 		width: 0ch;
 		animation: typing1 5s steps(30) 5s, blink .5s step-end 5s infinite alternate;
 		white-space: nowrap;
@@ -391,7 +391,7 @@
 		animation-fill-mode: forwards;
 	}
 
-	.skills .skill2 {
+	.greeting .thirdBlock {
 		width: 0ch;
 		animation: typing2 5s steps(32) 10s, blink .5s step-end 10s infinite alternate;
 		white-space: nowrap;

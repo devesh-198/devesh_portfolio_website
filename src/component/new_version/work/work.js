@@ -23,7 +23,7 @@ const Work = () => {
 		{
 			name: "Learning Logs",
 			about: [
-				"Buitl using Python and Django. Hosted on Heroku.",
+				"Built using Python and Django. Hosted on Heroku.",
 				"Configured User authentication.",
 				"Lets you track your learning by logging them to your account"
 			],
@@ -34,7 +34,7 @@ const Work = () => {
 		{
 			name: "Blog Post",
 			about: [
-				"Buitl using Python and Django. Hosted on Heroku.",
+				"Built using Python and Django. Hosted on Heroku.",
 				"Configured User authentication.",
 				"Lets you make posts to your blog that can and also edit them later."
 			],
