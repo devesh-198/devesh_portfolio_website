@@ -1,5 +1,5 @@
 .skills {
-    background-color: white;
+    background-color: rgba(255,255,255,0.8);
     margin: 5vw 0;
     padding: 10px 10px;
     text-align: left;
@@ -8,6 +8,5 @@
 }
 
 .skills > p {
-    display: inline-flex;
     margin-right: 10px;
 }

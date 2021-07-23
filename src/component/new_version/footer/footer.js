@@ -50,6 +50,7 @@ const Footer = () => {
                 </a>
             </div>
             <p>Thanks for visiting, have a good day.</p>
+            <p>Handcrafted by Devesh Gupta</p>
         </div>
     )
 } 

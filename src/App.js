@@ -18,6 +18,7 @@ import Work from './component/new_version/work/work';
 import Certificates from './component/new_version/certificates/certificates';
 import Footer from './component/new_version/footer/footer';
 import Publication from './component/new_version/publication/publication';
+import StickyContact from './component/new_version/stickyContact/stickyContact';
 // import linkedInBadge from './component/new_version/linkedInBadge';
 
 const App = () => {
@@ -47,7 +48,7 @@ const App = () => {
       <Publication/>
       <Certificates/>
       <Footer/>
-      {/* {linkedInBadge} */}
+      <StickyContact/>
     </>
   )
   

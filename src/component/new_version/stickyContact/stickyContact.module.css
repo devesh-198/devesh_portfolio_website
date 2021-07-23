@@ -1,0 +1,17 @@
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 30px;
+    height: fit-content;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+.icons:hover {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,0,0,0.5) 100%);
+}
