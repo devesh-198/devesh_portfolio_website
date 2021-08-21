@@ -78,7 +78,7 @@ const Work = () => {
 							rel="noreferrer"
 						>GitHub Repository</a>
 						<a
-							href={data.gitHubUrl}
+							href={data.websiteUrl}
 							target="_blank"
 							rel="noreferrer"
 						>View Website</a>
