@@ -3,6 +3,7 @@ import React from 'react';
 import burgerBuilderGif from '../../../assets/old_version/burgerBuilder.gif';
 import learningLogGif from '../../../assets/old_version/learningLog.gif';
 import blogPostGif from '../../../assets/old_version/blogPost.gif';
+import journalifyGif from '../../../assets/new_version/Journalify.gif';
 
 import classes from './work.module.css';
 
@@ -10,10 +11,21 @@ const Work = () => {
 
 	const workData = [
 		{
+			name: "Journalify",
+			about: [
+				"Built using JavaScript and React(Create-react-app). Hosted on Firebase.",
+				"Configured with Firebase Real-time Database and Firebase Authentication.",
+				"Uses Material-UI for design elements."
+			],
+			gif: journalifyGif,
+			gitHubUrl: 'https://github.com/devesh-198/journal-entry',
+			websiteUrl: 'https://journalify-962fa.web.app/'
+		},
+		{
 			name: "Burger Builder",
 			about: [
 				"Built using JavaScript and React(Create-react-app). Hosted on Firebase.",
-				"Configured with Firebase Real-time Database and Firebase Authentication",
+				"Configured with Firebase Real-time Database and Firebase Authentication.",
 				"It mocks a real-world food odering websites; you can build your burger and then place an order."
 			],
 			gif: burgerBuilderGif,
