@@ -4,6 +4,7 @@ import burgerBuilderGif from '../../../assets/old_version/burgerBuilder.gif';
 import learningLogGif from '../../../assets/old_version/learningLog.gif';
 import blogPostGif from '../../../assets/old_version/blogPost.gif';
 import journalifyGif from '../../../assets/new_version/Journalify.gif';
+import covidTracker from '../../../assets/new_version/covidTracker.gif';
 
 import classes from './work.module.css';
 
@@ -20,6 +21,16 @@ const Work = () => {
 			gif: journalifyGif,
 			gitHubUrl: 'https://github.com/devesh-198/journal-entry',
 			websiteUrl: 'https://journalify-962fa.web.app/'
+		},
+		{
+			name: "Covid-19 Tracker",
+			about: [
+				"Built using JavaScript and React(Create-react-app). Hosted on Firebase.",
+				"Used Covid-19 data API from Rapid API."
+			],
+			gif: covidTracker,
+			gitHubUrl: 'https://github.com/devesh-198/Covid-tracker',
+			websiteUrl: 'https://covid-tracker-7ab75.web.app/'
 		},
 		{
 			name: "Burger Builder",
