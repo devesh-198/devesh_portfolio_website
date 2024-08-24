@@ -41,7 +41,7 @@ const Work = () => {
 			],
 			gif: burgerBuilderGif,
 			gitHubUrl: 'https://github.com/devesh-198/Burger_builder',
-			websiteUrl: 'https://react-my-burger-2630a.web.app/'
+			// websiteUrl: 'https://react-my-burger-2630a.web.app/'
 		},
 		{
 			name: "Learning Logs",
@@ -52,7 +52,7 @@ const Work = () => {
 			],
 			gif: learningLogGif,
 			gitHubUrl: 'https://github.com/devesh-198/learning-log',
-			websiteUrl: 'https://devesh-logs.herokuapp.com/'
+			// websiteUrl: 'https://devesh-logs.herokuapp.com/'
 		},
 		{
 			name: "Blog Post",
@@ -63,7 +63,7 @@ const Work = () => {
 			],
 			gif: blogPostGif,
 			gitHubUrl: 'https://github.com/devesh-198/blog-post',
-			websiteUrl: 'https://devesh-blogs.herokuapp.com/'
+			// websiteUrl: 'https://devesh-blogs.herokuapp.com/'
 		}
 	]
 
@@ -88,11 +88,15 @@ const Work = () => {
 							target="_blank"
 							rel="noreferrer"
 						>GitHub Repository</a>
-						<a
-							href={data.websiteUrl}
-							target="_blank"
-							rel="noreferrer"
-						>View Website</a>
+						{
+							data?.websiteUrl ? (
+								<a
+									href={data.websiteUrl}
+									target="_blank"
+									rel="noreferrer"
+								>View Website</a>
+							) : null
+						}
 					</div>
 				</div>
 			</div>

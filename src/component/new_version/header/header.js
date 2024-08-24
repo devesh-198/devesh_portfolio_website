@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
 import classes from './header.module.css';
-import deveshSketch from '../../../assets/new_version/deveshSketch.jpg';
+import DeveshGuptaLinkedInImg from '../../../assets/new_version/DeveshGuptaLinkedInImg.jpg';
 
 const Header = () => {
+
+	document.addEventListener('DOMContentLoaded', () => {
+		[ref1, ref2, ref3].forEach(ref => {
+			ref?.current?.addEventListener('animationend', (event) => {
+				ref.current.classList.add(classes.typingComplete);
+				ref.current.style.animationPlayState = 'paused';
+			});
+		});
+	});
+
+	const ref1 = useRef();
+	const ref2 = useRef();
+	const ref3 = useRef();
 
 	const header = (
 		<div className={classes.head}>
 			<div className={classes.mobile}>
 				<p>Devesh Gupta</p>
-				<p>Frontend Web Developer</p>
+				<p>Fullstack Developer</p>
+			</div>
+			<div className={classes.devSketch}>
+				<img src={DeveshGuptaLinkedInImg} alt="Devesh Gupta" className={classes.deveshImgStyle}></img>
 			</div>
 			<div className={classes.lines}>
 				<ul className={classes.Words}>
@@ -18,10 +34,10 @@ const Header = () => {
 					</li>
 					<li className={classes.Wordsline}>
 						<p>Devesh Gupta</p>
-						<p>Frontend Web</p>
+						<p>Fullstack</p>
 					</li>
 					<li className={classes.Wordsline}>
-						<p>Frontend Web</p>
+						<p>Fullstack</p>
 						<p>Developer</p>
 					</li>
 					<li className={classes.Wordsline}>
@@ -30,13 +46,10 @@ const Header = () => {
 					</li>
 				</ul>
 				<div className={classes.greeting}>
-					<p className={classes.firstBlock}>I seek to create projects</p>
-					<p className={classes.secondBlock}>that bring your vision to life</p>
-					<p className={classes.thirdBlock}>in the form of web applications.</p>
+					<p ref={ref1} className={classes.firstBlock}>I seek to create projects</p>
+					<p ref={ref2} className={classes.secondBlock}>that bring your vision to life</p>
+					<p ref={ref3} className={classes.thirdBlock}>in the form of web and mobile apps.</p>
 				</div>
-			</div>
-			<div className={classes.devSketch}>
-				<img src={deveshSketch} alt="Devesh Gupta"></img>
 			</div>
 		</div>
 	)

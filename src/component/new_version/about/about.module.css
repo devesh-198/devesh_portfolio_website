@@ -2,15 +2,15 @@
     background-color: rgba(255,255,255,0.8);
     margin: 5vh 0;
     padding: 10px 10px;
-    text-align: center;
+    /* text-align: left; */
 }
 
 .about > h1 {
-    font-size: 5vw;
+    font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about > p {
-    font-size: 3vw;
+    font-size: 1.5rem;
     font-style: italic;
 }

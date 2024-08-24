@@ -45,8 +45,8 @@ const App = () => {
       {about}
       <NewSkills/>
       <Work/>
-      <Publication/>
-      <Certificates/>
+      {/* <Publication/> */}
+      {/* <Certificates/> */}
       <Footer/>
       <StickyContact/>
     </>
